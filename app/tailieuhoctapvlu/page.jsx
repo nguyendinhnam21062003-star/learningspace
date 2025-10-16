@@ -257,7 +257,7 @@ export default function TaiLieuHocTapPage() {
               {/* ===== POPUP ===== */}
               {showPopup && (
                 <Dialog open={showPopup} onOpenChange={setShowPopup}>
-                  <DialogContent className="max-w-lg">
+                  <DialogContent className="max-w-lg max-h-[80vh] sm:max-h-none overflow-y-auto">
                     <DialogHeader>
                       <DialogTitle>Thông báo từ Learning Space</DialogTitle>
                       <DialogDescription asChild>
