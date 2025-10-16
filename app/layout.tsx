@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { url } from "zod";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,7 +26,7 @@ export const metadata = {
     siteName: "LearningSpace",
     images: [
       {
-        src: "/images/learningspace.jpg", // đặt ảnh của bạn
+        url: "/images/learningspace.jpg", // đặt ảnh của bạn
         width: 1200,
         height: 630,
         alt: "LearningSpace Preview",
