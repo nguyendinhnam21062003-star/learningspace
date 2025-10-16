@@ -85,7 +85,7 @@ const documents = [
     author: "UniNest",
     access: "Miễn phí",
     note: "Tài liệu cập nhật liên tục, mọi thắc mắc liên hệ UniNest",
-    link: "https://docs.google.com/document/d/1Az2zYqdGTulmii0j366_FQvPo3BH1qFb0q1q-mKTtiI/edit?tab=t.0",
+    link: "https://docs.google.com/document/d/1HJ9_WbHIxETDuDLlJqKoaCVgDtU6GgG_sT4-2hIVQVY/edit?tab=t.0",
   },
 ];
 
